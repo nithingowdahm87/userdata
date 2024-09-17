@@ -1,8 +1,8 @@
 Create ec2-instance with Ubuntu OS [t2.large]
 
 Install Docker
--sudo apt update
--sudo apt install docker.io
+-sudo apt update -y
+-sudo apt install docker.io -y
 -sudo systemctl start docker
 -sudo systemctl enable docker
 
